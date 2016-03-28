@@ -4,10 +4,11 @@
 <meta charset="UTF-8">
 <title>Dom Jones IT GitHub</title>
 <link href="css/dlj_css.css" rel="stylesheet" type="text/css">
+<link href="css/slide.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 @import url("webfonts/webfontkit-20160324-212246/stylesheet.css");
 body,td,th {
-	font-family: Dosis;
+	font-family: dosisregular;
 	font-style: normal;
 	color: #000000;
 }
@@ -30,6 +31,7 @@ a:active {
 	text-decoration: none;
 	color: #C6C6C6;
 }
+
 </style>
 </head>
 
@@ -46,9 +48,9 @@ a:active {
 
 </div> <!-- titleBar -->
 <div> 
-  <nav id="topNav" style="text-align: center; word-spacing: 80px; font-size: 24px; color: #C2C2C2; font-family: "Dosis"> 
+  <nav id="topNav" style="text-align: center; word-spacing: 80px; font-size: 24px; color: #C2C2C2; font-family: Dosis"> 
   <hr style="width: 1024px">
-  <a href="#">Home</a>
+  <a href="#" style="font-color: #55C5FC">Home</a>
   <a href="#">Projects</a>
   <a href="#">Resume</a>
   <a href="https://www.linkedin.com/in/dominiqueljones">LinkedIn</a>
@@ -62,7 +64,30 @@ a:active {
   <!-- topNav div -->
   
   <div id="main"> <!-- main div -->
-<div id="contentOne">Content for  id "contentOne" Goes Here</div> 
+<section>
+<div class="slider">
+<div class="slide-viewer">
+<div class="slide-group">
+	<div class="slide slide-1">
+    	<img src="img/lebron.jpg" alt="LeBron James">
+        </div>
+    <div class="slide slide-2">
+    	<img src="img/durant.png" alt="Kevin Durant">
+        </div>
+    <div class="slide slide-3">
+    	<img src="img/derozan.jpg" alt="Demar DeRozan">
+        </div>
+    <div class="slide slide-4">
+    	<img src="img/westbrook.jpg" alt="Russell Westbrook">
+        </div>
+</div>
+</div>
+</div> 
+<div class="slide-buttons"></div>
+</section>
+
+<script src="js/slide2.js"></script>
+<script src="js/slide.js"></script>
 <!-- contentOne div -->
   <div id="contentTwo">Content for  id "contentTwo" Goes Here</div> <!-- contentTwo div -->
     <div id="contentThree">Content for  id "contentThree" Goes Here</div> <!-- contentThree div -->
