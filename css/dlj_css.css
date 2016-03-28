@@ -71,15 +71,14 @@ h4 {
 	color: #17C0FB;
 	text-decoration: none;
 	margin-right: 30px;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-bottom: 10px;
 	text-align: center;
 }
 
-#contentOne {
+#slideShow {
 	height: 448px;
 	width: 1024px;
-	background-color: #070781;
 	float: left;
 }
 
