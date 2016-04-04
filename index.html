@@ -5,6 +5,8 @@
 <title>Dom Jones IT GitHub</title>
 <link href="css/dlj_css.css" rel="stylesheet" type="text/css">
 <link href="css/slide.css" rel="stylesheet" type="text/css">
+<link href="css/tab.css" rel="stylesheet" type="text/css">
+
 <style type="text/css">
 @import url("webfonts/webfontkit-20160324-212246/stylesheet.css");
 body,td,th {
@@ -52,7 +54,7 @@ a:active {
   <hr style="width: 1024px">
   <a href="#" style="font-color: #55C5FC">Home</a>
   <a href="#">Projects</a>
-  <a href="#">Resume</a>
+  <a href="resume/DomJones Resume.pdf">Resume</a>
   <a href="https://www.linkedin.com/in/dominiqueljones">LinkedIn</a>
   <a href="mailto:DomJonesIT@gmail.com">E-Mail</a>
   
@@ -64,30 +66,51 @@ a:active {
   <!-- topNav div -->
   
   <div id="main"> <!-- main div -->
-<section>
-<div class="slider">
-<div class="slide-viewer">
-<div class="slide-group">
-	<div class="slide slide-1">
-    	<img src="img/lebron.jpg" alt="LeBron James">
-        </div>
-    <div class="slide slide-2">
-    	<img src="img/durant.png" alt="Kevin Durant">
-        </div>
-    <div class="slide slide-3">
-    	<img src="img/derozan.jpg" alt="Demar DeRozan">
-        </div>
-    <div class="slide slide-4">
-    	<img src="img/westbrook.jpg" alt="Russell Westbrook">
-        </div>
-</div>
-</div>
-</div> 
-<div class="slide-buttons"></div>
-</section>
+<section class="page">
 
-<script src="js/slide2.js"></script>
-<script src="js/slide.js"></script>
+      <div class="tabs">
+
+        <ul class="tab-list">
+          <li class="active"><a class="tab-control" href="#tab1"><h4>Who Is Dominique L. Jones?</h4></a></li>
+          <li><a class="tab-control" href="#tab2"><h4>Acacemics</h4></a></li>
+          <li><a class="tab-control" href="#tab3"><h4>Skills</h4></a></li>
+          <li><a class="tab-control" href="#tab4"><h4>Why You Should Work With Dominique?</h4></a>
+          </li>
+        </ul>
+
+        <div class="tab-panel active" id="tab1">
+           <p>Welcome to the Dominique L. Jones GitHub site. I'm an Atlanta-based web and software developer that creates clean and modern content for the world wide web and mobile devices. As a college student in Columbia, South Carolina, I knew that once I graduated I wanted  to move to the Atlanta area to pursue greater opportunities and a career as a professional web and software developer. The Dom Jones IT GitHub site will be dedicated to my personal projects, programs, websites, and all things design and development related. Look around, I've got some pretty cool stuff in here!</p>
+        </div>
+
+        <div class="tab-panel" id="tab2">
+            <p><strong>Limestone College</strong> <br />
+            Bachelor of Science - Computer Science (Information Technology), December 2015</p>
+            <p><strong>Midlands Technical College</strong> <br />
+            Associate of Applied Science - Computer Science (Web Development), May 2013</p>
+        </div>
+
+        <div class="tab-panel" id="tab3">
+            <p><strong>Programming Languages:</strong>
+            Java, JavaScript, HTML5, CSS3, C++, PHP, MySQL, SQL, VBA, Visual Basic, iOS/Swift (pending).</p>
+            <p><strong>Operating Systems:</strong>
+            Mac OS X, Windows, Linux.</p>
+            <p><strong>Applications and IDE's:</strong>
+            Adobe Dreamweaver, Adobe Fireworks, X Code, Visual Studio, NetBeans, Eclipse, Microsoft Office (Access, Excel, PowerPoint, Word).</p>
+        </div>
+        
+        <div class="tab-panel" id="tab4">
+            <p>As a web and software developer, I am passionate about developing great programs and websites that users can enjoy and interact with. I want to create products, programs, websites, and apps that will enhance users lives, bring enjoyment, entertain, and require daily use. Although I have learned a great deal about computer science during my undergraduate studies, I am always looking to build on the knowledge and experience I gained in college. I am currently teaching myself iOS and Android mobile app development, and also C programming. 
+            <br />
+            
+            Overall, I am passionate about web, software, and app development. I am looking for an opportunity to use what I learned throughout undergrad and join a company that I can creatively contribute to, build lasting professional relationships with, learn from experienced professionals, grow within company, and be a positive asset and addition a development team.</p>
+        </div>
+
+      </div><!-- .tabs -->
+
+    </section><!-- .page -->
+
+    <script src="js/slide2.js"></script> <!-- jQuery JavaScript -->
+    <script src="js/tab.js"></script> <!-- Tab JavaScript -->
 <!-- contentOne div -->
   <div id="contentTwo">Content for  id "contentTwo" Goes Here</div> <!-- contentTwo div -->
     <div id="contentThree">Content for  id "contentThree" Goes Here</div> <!-- contentThree div -->
