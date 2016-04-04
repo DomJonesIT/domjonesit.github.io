@@ -45,6 +45,7 @@
   min-height: 150px;
   overflow: auto;
   width: 1024px;
+  font-family: 'Dosis';
   }
 
 .tab-panel.active {
