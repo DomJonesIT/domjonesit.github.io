@@ -1,4 +1,4 @@
-package com.java24hours;
+package domjonesit;
 
 import java.awt.*;
 import javax.swing.*;
