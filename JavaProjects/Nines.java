@@ -1,4 +1,4 @@
-package com.domjonesit;
+package com.java24hours;
 
 class Nines {
     public static void main(String[] arguments) {
