@@ -1,4 +1,4 @@
-package com.java24hours;
+package com.domjonesit;
 
 public class speedTester {
     public static void main (String[] arguments) {
@@ -6,10 +6,10 @@ public class speedTester {
         wallSpeed nike = new wallSpeed();
         jordan.speed = 22;
         nike.speed = 18;
-        System.out.println("Fast break speed contest in Jordan\'s:");
+        System.out.println("Russell Westbrooks's fast break speed (in seconds) wearing Jordan\'s:");
         jordan.displaySpeed();
         jordan.seconds();
-        System.out.println("Fast break speed contest in Nike\'s:");
+        System.out.println("John Wall's fast break speed (in seconds) wearing Nike\'s:");
         nike.displaySpeed();
         nike.seconds();
     }
