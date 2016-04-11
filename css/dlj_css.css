@@ -92,7 +92,13 @@ h4 {
 
 #contentThree {
 	height: 448px;
-	width: 1024px;
+	width: 512px;
+	float: left;
+}
+
+#contentFour {
+	height: 448px;
+	width: 512px;
 	float: left;
 }
 
