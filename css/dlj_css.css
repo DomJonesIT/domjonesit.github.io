@@ -78,6 +78,16 @@ h4 {
 	text-align: center;
 }
 
+#bottomNav {
+	background-color: #C4C4C4;
+	font-family: Dosis;
+	height: 60px;
+	width: 1024px;
+	text-align: center;
+	padding-bottom: 0px;
+	position: fixed;
+}
+
 #slideShow {
 	height: 448px;
 	width: 1024px;
