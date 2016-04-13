@@ -85,7 +85,7 @@ h4 {
 	width: 1024px;
 	text-align: center;
 	padding-bottom: 0px;
-	position: fixed;
+	float: left;
 }
 
 #slideShow {
