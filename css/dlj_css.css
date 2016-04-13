@@ -94,12 +94,14 @@ h4 {
 	height: 448px;
 	width: 512px;
 	float: left;
+	padding-top: 10px;
 }
 
 #contentFour {
 	height: 448px;
 	width: 512px;
-	float: left;
+	float: right;
+	padding-top: 10px;
 }
 
 #bottomNav {
